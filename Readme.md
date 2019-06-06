@@ -208,6 +208,14 @@ fileinclude({
 </article>
 ```
 
+### `loop` statement + context parameter
+<!-- * loop-article.html -->
+```html
+<body>
+  @@loop("loop-article.html", @@parameter)
+</body>
+```
+
 ### `loop` statement + data.json
 
 data.json
