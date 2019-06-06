@@ -66,6 +66,7 @@ index.html
       "tw": "twitter.com/include"
     }
   })
+  @@include('./var.html', @@socials)
   </body>
 </html>
 ```
